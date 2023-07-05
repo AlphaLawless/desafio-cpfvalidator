@@ -1,0 +1,21 @@
+.isValid {
+  color: #3CDD2E;
+  text-shadow: 0px 0px 20px 0px rgba(60, 221, 46, 0.90);
+  font-size: 1.875rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-top: 2rem;
+}
+
+.isNotValid {
+  color: #DD2E2E;
+  text-shadow: 0px 2px 20px 0px rgba(221, 46, 46, 0.70);
+  font-size: 1.875rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
