@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
 import Title from '@/components/Title'
 import Input from '@/components/Input'
@@ -7,8 +7,9 @@ import Status from '@/components/Status'
 import Footer from '@/components/Footer'
 
 import styles from '@/styles/Home.module.css'
+import Button from '@/components/Button'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ["latin"] })
 
 export default function Home() {
   return (
@@ -19,9 +20,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.container} ${montserrat.className}`}>
       <Title />
-      <Input/>
+      <div className={styles.verifyInput}>
+        <Input/>
+        <Button/>
+      </div>
       <Status/>
       <Footer/>
       </main>

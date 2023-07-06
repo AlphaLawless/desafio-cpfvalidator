@@ -1,12 +1,10 @@
 .input {
   display: inline-flex;
   padding: 2rem 17.0625rem 1.9375rem 1.8125rem;
-  align-items: center;
   border: none;
   outline: none;
 
   font-size: 1.875rem;
-  font-family: Montserrat;
   color: rgba(255, 255, 255, 0.846);
 
   width: 37.5rem;
@@ -28,7 +26,6 @@
 .input::placeholder {
   color: rgba(255, 255, 255, 0.20);
   font-size: 1.875rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
   line-height: normal; 
